@@ -1,3 +1,3 @@
 public enum CategoriaMove {
-    Fisico, Especial;
+    Fisico, Especial, Status;
 }

@@ -5,6 +5,7 @@ public class Charmander extends Pokemon {
         super.setDescricao("A chama na ponta de sua cauda emite um som enquanto queima. " +
                 "Você só pode ouvi-lo em lugares silenciosos.");
         super.setHp(39);
+        super.setLevel(5);
         super.setAtk(52);
         super.setDef(43);
         super.setSpAtk(60);
@@ -12,6 +13,8 @@ public class Charmander extends Pokemon {
         super.setSpd(65);
 
         super.setMoves(new Ember());
+        super.setMoves(new Scratch());
+        super.setMoves(new Growl());
     }
 
 }

@@ -67,4 +67,5 @@ public abstract class Move {
     public String toString() {
         return this.nome;
     }
+
 }
